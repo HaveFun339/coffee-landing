@@ -1,0 +1,45 @@
+.section-container {
+    width: 80%; 
+    margin: 200px auto; 
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  .c1 {
+    display: flex;
+    align-items: center; 
+   
+  }
+  
+  .text-content {
+    width: 50%; 
+    padding-left: 50px;
+  }
+  
+  .dscof {
+    font-size: 54px;
+    font-weight: 700;
+    color: #603809;
+    margin-bottom: 20px; 
+  }
+  
+  .dscof1 {
+    color: #707070;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .ccc {
+    height: auto;
+    max-width: 50%; 
+    margin-left: 50px; 
+  }
+  
+  .btt0 {
+   
+  }
+  
+  body {
+    background-color: #f8f8f8;
+  }
+  

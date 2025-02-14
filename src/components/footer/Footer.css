@@ -1,0 +1,53 @@
+.foot{
+    background-image: url(/assets/images/foot-im.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height:700px;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #FFFFFFFF;
+    display: flex;
+    margin-top: -400px;
+    margin-right: -700px;
+}
+.foot2{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFFFF;
+    display: flex;
+    margin-top: -280px;
+    margin-right: -600px;
+}
+.in1{
+    height: 66px;
+    width: 642px;
+    padding: 20px;
+    display: flex;
+    margin-left: -75px;
+}
+.in1::placeholder {
+    font-size: 18px; 
+    color: #aaa; 
+    display: flex;
+    margin-right: -50px;
+  }
+  .bti{
+    height: 64.5px;
+  font-weight: 700;
+  font-size: 16px;
+  background: #f9c06a;
+  padding: 14px 27px;
+ 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }

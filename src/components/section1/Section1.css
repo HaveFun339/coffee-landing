@@ -1,0 +1,112 @@
+/* .s1g{
+    height: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.enj{
+    font-weight: 700;
+    font-size: 54px;
+    display: flex;
+margin-right: -680px;
+    color: #603809;
+    margin-top: -300px;
+}
+.expl{
+    margin-top: -150px;
+font-weight: 400;
+font-size: 20px;
+display: flex;
+color: #707070;
+margin-left: -900px;
+
+}
+.i1{
+    width: 280px;
+    height: 222px;
+    margin-bottom: -150px;
+    margin-left: -2000px;
+} */
+.s1g {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.header-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.enj {
+    font-weight: 700;
+    font-size: 54px;
+    color: #603809;
+    margin-bottom: 20px;
+}
+
+.expl {
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+}
+
+.coffee-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.coffee-card {
+    width: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.coffee-image {
+    width: 100%;
+    height: 222px;
+    display: block;
+    object-fit: cover;
+}
+
+.coffee-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.coffee-name {
+    font-weight: 700;
+    font-size: 18px;
+    color: #603809;
+    margin-bottom: 10px;
+}
+
+.coffee-description {
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+
+.coffee-price {
+    font-size: 16px;
+    color: #603809;
+    position: relative;
+    bottom: 15px;
+}
+
+
+.bbb{
+    display: flex;
+    margin-right: -0px;
+    margin-top: -10px;
+    font-weight: 700;
+}
