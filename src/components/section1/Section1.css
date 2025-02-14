@@ -30,7 +30,7 @@ margin-left: -900px;
 .s1g {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     padding: 50px;
     background-color: #f8f8f8;
 }
@@ -55,9 +55,10 @@ margin-left: -900px;
 
 .coffee-cards-container {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     gap: 20px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .coffee-card {
@@ -66,6 +67,8 @@ margin-left: -900px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
+    display: flex; 
+    flex-direction: column; 
 }
 
 .coffee-image {
@@ -81,32 +84,27 @@ margin-left: -900px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    flex-grow: 1; 
+    justify-content: space-between; 
 }
-
 .coffee-name {
     font-weight: 700;
     font-size: 18px;
     color: #603809;
-    margin-bottom: 10px;
 }
 
 .coffee-description {
     font-size: 14px;
     color: #1E1E1E;
-    margin-bottom: 10px;
 }
 
 .coffee-price {
     font-size: 16px;
     color: #603809;
-    position: relative;
-    bottom: 15px;
 }
 
-
-.bbb{
+.bbb {
     display: flex;
-    margin-right: -0px;
-    margin-top: -10px;
-    font-weight: 700;
+    justify-content: center; 
+    margin-bottom: 10px; 
 }

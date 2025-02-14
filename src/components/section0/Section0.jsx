@@ -4,7 +4,8 @@ import "./Section0.css";
 
 export const Section0 = () => {
   return (
-    <div className="section-container"> 
+    
+    <div className="section-container" id='about'> 
       <div className="c1">
         <div className="text-content"> 
           <div className="dscof">Discover the best coffee</div>
@@ -18,5 +19,6 @@ export const Section0 = () => {
         <img className='ccc' src="./assets/images/ccoof.png" alt="" />
       </div>
     </div>
+   
   );
 }

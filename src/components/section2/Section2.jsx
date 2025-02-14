@@ -23,11 +23,13 @@ export const Section2 = () => {
     <div className="pricetext1">Affordable Price</div>
     <div className="pricetext2">Our Coffee prices are
     easy to afford</div>
+    <div className="idea4">
     <div className="idea0">
     <div className="idea">Great ideas start with great coffee, Lets help you achieve that</div>
     <div className="idea2">Get started today.</div>
     </div>
     <Button className="bt0" title={"Join Us"}/>
+    </div>
 </div>
 
 </>

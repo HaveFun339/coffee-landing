@@ -49,6 +49,7 @@ export const Section1 = () => {
     ];
 
     return (
+        <div className="section-container" id="menu">
         <div className="s1g">
             <div className="header-content">
                 <div className="enj">Enjoy a new blend of coffee style</div>
@@ -63,12 +64,13 @@ export const Section1 = () => {
                             <div className="coffee-description">{card.description}</div>
                             <div className="coffee-price">{card.price}</div>
                             <div className="bbb">
-                           <Button title={"Order Now"}/>
-                           </div>
+                                <Button title={"Order Now"} />
+                            </div>
                         </div>
                     </div>
                 ))}
             </div>
+        </div>
         </div>
     );
 };
