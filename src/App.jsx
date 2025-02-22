@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import { motion } from "motion/react"
 import { Button } from "./components/button/Button";
 import { Header } from "./components/header/Header";
 import { Section3 } from "./components/section3/Section3";

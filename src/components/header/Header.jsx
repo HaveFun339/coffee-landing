@@ -1,12 +1,13 @@
 import React from 'react';
 import { Button } from '../button/Button';
 import './Header.css';
-
 export const Header = () => {
   return (
     <header>
       <nav>
         <div className="logo">Bean Scene</div>
+        
+        <img className='hamic' src="https://cdn-icons-png.flaticon.com/512/4436/4436481.png" alt="" />
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#menu">Menu</a></li>

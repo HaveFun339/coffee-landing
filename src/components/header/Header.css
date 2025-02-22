@@ -3,6 +3,7 @@ html {
 }
 
 header {
+  
   display: flex;
   flex-direction: column;
   background-image: url(/assets/images/coffee_image.png);
@@ -41,7 +42,7 @@ li a:hover {
 }
 
 nav {
-  
+
   width: 1480px;
   margin: 0 auto;
   height: 48px;
@@ -85,10 +86,30 @@ ul {
   font-family: "Clicker Script", serif;
   font-size: 220px;
 }
-
+.hamic{
+display: none;
+}
 .t2 {
   font-size: 20px;
   font-weight: 400;
   width: 527px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 792px) {
+  nav{
+    
+  }
+  .hamic {
+    width: 300px;
+    height: 300px;
+    display: block;
+    color: black;
+  
+  }
+
+header{
+  width: 400px;
+max-width: 792px;
+
+}
 }

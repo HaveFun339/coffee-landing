@@ -64,8 +64,9 @@ export const Section1 = () => {
                             <div className="coffee-description">{card.description}</div>
                             <div className="coffee-price">{card.price}</div>
                             <div className="bbb">
-                                <Button title={"Order Now"} />
+                            <Button className={"bta"} title={"Order Now"} />
                             </div>
+                            
                         </div>
                     </div>
                 ))}
